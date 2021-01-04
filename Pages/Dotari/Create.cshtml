@@ -2,12 +2,12 @@
 @model Bodea_Denis.Pages.Dotari.CreateModel
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Dotari";
 }
 
-<h1>Create</h1>
+<h1>Adaugare Dotari</h1>
 
-<h4>Dotare</h4>
+<h4>Dotari</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -19,14 +19,14 @@
                 <span asp-validation-for="Dotare.DotareNume" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Creare" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-page="Index">Back to List</a>
+    <a asp-page="Index">Inapoi la pagina de start</a>
 </div>
 
 @section Scripts {
